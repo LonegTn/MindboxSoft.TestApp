@@ -2,6 +2,9 @@
 
 namespace Mindbox.FigureArea.Figures
 {
+    /// <summary>
+    /// Круг
+    /// </summary>
     public class Circle : IFigure
     {
         private readonly double _radius;
@@ -13,6 +16,9 @@ namespace Mindbox.FigureArea.Figures
 
         public double Area => Math.PI * Math.Pow(_radius, 2);
 
+        /// <summary>
+        /// Радиус круга
+        /// </summary>
         public double Radius => _radius;
     }
 }

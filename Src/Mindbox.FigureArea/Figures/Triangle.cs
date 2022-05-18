@@ -2,6 +2,9 @@
 
 namespace Mindbox.FigureArea.Figures
 {
+    /// <summary>
+    /// Треугольник
+    /// </summary>
     public class Triangle : IFigure
     {
         private readonly double _sideOne;
@@ -30,6 +33,9 @@ namespace Mindbox.FigureArea.Figures
             }
         }
 
+        /// <summary>
+        /// Является ли треугольник правильным
+        /// </summary>
         public bool IsRightTriangle
         {
             get
@@ -41,10 +47,19 @@ namespace Mindbox.FigureArea.Figures
             }
         }
 
+        /// <summary>
+        /// Первая сторона треульника
+        /// </summary>
         public double SideOne => _sideOne;
 
+        /// <summary>
+        /// Вторая сторона треульника
+        /// </summary>
         public double SideTwo => _sideTwo;
 
+        /// <summary>
+        /// Третья сторона треульника
+        /// </summary>
         public double SideThree => _sideThree;
     }
 }
